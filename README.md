@@ -20,6 +20,6 @@ for i in path/to/dir/*.fasta; do echo sed -i 's/current header/fixed header/g' $
 ```
 for i in path/to/dir/*.fasta; do grep "target string" $i; done | wc -l
 ```
-- Read length and coverage must be present in the assembly fasta headers which need to be artifically added to certain data (reference genomes, etc.). You can add this to the end of the header: read_length_0 read_count_1.
+- Read length and coverage must be present in the assembly fasta headers which need to be artifically added to certain data (curated genomes, NCBI genomes, etc.). You can add this to the end of the header: read_length_0 read_count_1.
 
 
