@@ -1,6 +1,6 @@
 # ggkInspector 
 
-ggkInspector is a python program to be run on Biotite for catching errors in ggKbase import files in a user friendly manner. Once all of the flagged errors are fixed after subsequent runs the file will be prepared for import.
+ggkInspector is a python program to be run on Biotite for catching errors in ggKbase import files in a user friendly manner. Once all of the flagged errors are fixed the file will be prepared for import.
 </br></br>
 Follow the ggkhelp page for more info: https://ggkbase-help.berkeley.edu/overview/data-import/. </br>
 Import tsv template can be downloaded here: https://ggkbase-help.berkeley.edu/wp-content/uploads/2015/11/ggkbase_bulk_upload_template.tsv
