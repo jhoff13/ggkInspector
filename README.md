@@ -10,7 +10,7 @@ python /home/jhoff/scripts/ggkInspector.py -t /path/to/ggkimport.tsv
 ```
 ## Tips for a succesful import:
 ggKbase has a particular formatting scheme that trips users up in the same places. Here are some things to consider as you start tbe metagenomic's pipeline.</br>
-- **Slugs**: Slugs are the project names that appear in the URL and therefore cannot have any disruptive charecters (ie: whitespaces, '.', '/', '*').
+- **Slugs**: Slugs are the project names that appear in the URL and therefore cannot have any disruptive characters (ie: whitespaces, '.', '/', '*').
 - The Slug must be present in the assembly fasta headers and the subsequent downstream files. It is therefore easiest to make sure this is consistent before starting the pipeline before generating the downstream files.
 - Changing fasta headers using *sed*. If you need to make changes to fasta headers here is a cmd you can run to do that. However you should be very careful as this will alter the file. Echo the cmds and test run on a copy fasta first.
 ```
